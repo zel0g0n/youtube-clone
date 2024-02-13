@@ -10,13 +10,13 @@ const Navbar = () => {
       alignItems='center' 
       justifyContent='space-between' 
       p={2} 
-      sx={{position: 'sticky', top: 0, background: colors.primary}}
+      sx={{position: 'sticky', top: 0, background: colors.primary, width: '1360px',margin: '0 auto'}}
     >
       <Link to='/'>
         <img src={logo} alt="logo" height={30} width={60} />
       </Link>
       <SearchBar/>
-      <Box></Box>
+      <Box/>
     </Stack>
   )
 }
