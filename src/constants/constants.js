@@ -1,0 +1,1 @@
+export const logo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Youtube.png/2560px-Youtube.png'
